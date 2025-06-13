@@ -1,0 +1,79 @@
+.card{
+    
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    
+    width: 380px;
+    height: 50vh;
+
+    
+    margin: 100px auto;
+    backdrop-filter: blur(10px);
+    background: rgba(212, 195, 178, 0.347);
+    
+
+    
+
+}
+.card h1 {
+    font-size: 28px;
+    color: #333;
+    padding: 10px auto;
+    color:black;
+}
+body{
+
+    background:linear-gradient(to bottom,orange,red);
+    height:100vh;
+    overflow: hidden;
+    
+}
+.cardContainer{
+    padding:10px;
+    
+
+}
+#textBox{
+    border-radius: 5px;
+    width:80%;
+    height:30px;
+    text-align: center;
+    
+    
+
+}
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button{
+    
+    
+    
+   background: rgba(254, 71, 4, 0.874);
+   padding: 10px;
+    border: none;
+    
+    font-size: 1.5em;
+    border-radius: 8px;
+    cursor: pointer;
+    
+    width: 100%;
+    margin-top: 15px;
+    cursor: pointer;
+    &:hover{
+        background:rgb(223, 60, 0);
+
+
+    }
+    #result{
+        font-size:1.9em;
+        font-weight:bolder;
+    }
+    
+
+    
+}
